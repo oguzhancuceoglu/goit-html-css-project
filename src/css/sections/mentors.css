@@ -1,0 +1,279 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin and padding from all elements. I added it generally and it might be edit at last version of the project.*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  background-color: #121212;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0px 20px;
+}
+
+.our-mentors {
+  padding: 40px 0;
+}
+
+.our-mentors h2 {
+  color: #ffffff;
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+
+.our-mentors h3 {
+  color: #ffffff;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.our-mentors p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 12px;
+  margin-top: 4px;
+  padding: 0;
+}
+
+.our-mentors span {
+  color: #bea69e;
+}
+
+.our-mentors ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+  row-gap: 40px;
+  justify-content: center;
+  background-color: transparent;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.our-mentors li {
+  padding: 20px;
+  color: #ffffff;
+  text-align: center;
+  background: transparent;
+  box-shadow: none;
+}
+
+.our-mentors li img {
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin-bottom: 16px;
+}
+
+
+/* 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+
+-------------------------- TABLET GÖRÜNÜM ------------------------------
+
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*/
+
+@media (min-width: 768px) {
+  /* Remove default margin and padding from all elements. I added it generally and it might be edit at last version of the project.*/
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: "DM Sans", sans-serif;
+    background-color: #121212;
+  }
+
+  .container {
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 0 32px;
+  }
+
+  .our-mentors {
+    padding: 50px 0;
+  }
+
+  .our-mentors h2 {
+    color: #ffffff;
+    font-size: 48px;
+    margin-bottom: 50px;
+  }
+
+  .our-mentors h3 {
+    color: #ffffff;
+    font-size: 28px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .our-mentors p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    margin-top: 4px;
+    padding: 0;
+  }
+
+  .our-mentors span {
+    color: #bea69e;
+  }
+
+  .our-mentors ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    row-gap: 93px;
+    justify-content: center;
+    background-color: transparent;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .our-mentors li {
+    padding: 20px;
+    color: #ffffff;
+    text-align: center;
+    background: transparent;
+    box-shadow: none;
+  }
+
+  .our-mentors li img {
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin-bottom: 16px;
+  }
+}
+/* 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+
+-------------------------- DESKTOP GÖRÜNÜM ------------------------------
+
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*/
+
+@media (min-width: 1280px) {
+  /* Remove default margin and padding from all elements. I added it generally and it might be edit at last version of the project.*/
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: "DM Sans", sans-serif;
+    background-color: #121212;
+  }
+
+  .container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .our-mentors {
+    padding: 75px 0;
+  }
+
+  .our-mentors h2 {
+    color: #ffffff;
+    font-size: 48px;
+    margin-bottom: 50px;
+  }
+
+  .our-mentors h3 {
+    color: #ffffff;
+    font-size: 28px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .our-mentors p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    margin-top: 4px;
+    padding: 0;
+  }
+
+  .our-mentors span {
+    color: #bea69e;
+  }
+
+  .our-mentors ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    row-gap: auto;
+    justify-content: center;
+    background-color: transparent;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .our-mentors li {
+    padding: 20px;
+    color: #ffffff;
+    text-align: center;
+    background: transparent;
+    box-shadow: none;
+  }
+
+  .our-mentors li img {
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin-bottom: 16px;
+  }
+}
