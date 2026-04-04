@@ -26,10 +26,6 @@ body {
   min-width: 100vw;
   min-height: 100vh;
   margin: 0;
-  background-image: url('../../img/background.png');
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: 100% auto;
 }
 
 main {
