@@ -35,3 +35,25 @@ main {
 main:has(.back-link) {
   text-align: center;
 }
+
+.header-hero-wrapper {
+  position: relative;
+  background-image: url("../../img/header-hero-background-mobile.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* Styles for Tablet devices */
+@media only screen and (min-width: 768px) {
+  .header-hero-wrapper {
+    background-image: url("../../img/header-hero-background-tablet.png");
+  }
+}
+
+/* Styles for Desktop devices */
+@media only screen and (min-width: 1280px) {
+  .header-hero-wrapper {
+    background-image: url("../../img/header-hero-background-desktop.png");
+  }
+}
