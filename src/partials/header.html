@@ -10,7 +10,7 @@
       </div>
       <div class="header-menu-div">
         <ul class="header-menu-ul">
-          <li><a href="#about-us" class="active">About Us</a></li>
+          <li><a href="#about-us">About Us</a></li>
           <li><a href="#our-courses">Our Courses</a></li>
           <li><a href="#our-mentors">Our Mentors</a></li>
           <li><a href="#reviews">Reviews</a></li>
@@ -34,38 +34,41 @@
       <a href="#sign-up" class="header-signup-btn">Sign Up</a>
     </div>
   </div>
-</header>
-
-<!-- mobile menu 
-
+  <!-- overlay -->
+  <div class="overlay"></div>
+  <!-- mobile menu -->
   <div class="mobile-menu" id="mobile-menu">
     <div class="mobile-menu-container">
-      <button class="mobile-menu-close" type="button">
-        <svg width="16" height="16">
+      <button class="menu-close-btn" type="button" aria-label="Close menu">
+        <svg class="close-logo">
           <use href="../img/header-icons.svg#icon-close"></use>
         </svg>
       </button>
       <nav class="mobile-nav">
-        <ul class="mobile-nav-list">
-          <li class="mobile-nav-link mobile-menu-active">
-            <a href="#about-us">About Us</a>
-          </li>
-          <li class="mobile-nav-link">
-            <a href="#our-courses">Our Courses</a>
-          </li>
-          <li class="mobile-nav-link">
-            <a href="#our-mentors">Our Mentors</a>
-          </li>
-          <li class="mobile-nav-link"><a href="#reviews">Reviews</a></li>
-          <li class="mobile-nav-link"><a href="#contacts">Contacts</a></li>
+        <ul class="mobile-menu-ul">
+          <li><a href="#about-us" class="menu-active">About Us</a></li>
+          <li><a href="#our-courses">Our Courses</a></li>
+          <li><a href="#our-mentors">Our Mentors</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#contacts">Contacts</a></li>
         </ul>
       </nav>
     </div>
-    <img
-      src="../img/menu.jpg"
-      srcset="./img/menu.jpg 1x, ./img/menu.jpg 2x"
-      alt="menu"
-    />
+    <div class="menu-image-wrapper">
+      <img
+        src="../img/menu-mobile.jpg"
+        srcset="
+          ../img/menu-mobile.jpg     329w,
+          ../img/menu-mobile@2x.jpg  658w,
+          ../img/menu-tablet.jpg     500w,
+          ../img/menu-tablet@2x.jpg 1000w
+        "
+        sizes="(min-width: 768px) 500px, 329px"
+        width="329"
+        height="218"
+        alt="Menu Image"
+        class="menu-image"
+      />
+    </div>
   </div>
-
--->
+</header>
