@@ -1,31 +1,20 @@
-const openBtn = document.querySelector('.nav-btn');
-const closeBtn = document.querySelector('.menu-close-btn');
-const menu = document.querySelector('#mobile-menu');
+const menuBtn = document.querySelector('.nav-btn');
 const overlay = document.querySelector('.overlay');
-const links = document.querySelectorAll('.mobile-menu a');
+const menu = document.querySelector('.mobile-menu');
+const closeBtn = document.querySelector('.menu-close-btn');
 
-// open mobile menu
-openBtn.addEventListener('click', () => {
+const openMenu = () => {
   menu.classList.add('show');
-  overlay.classList.add('closing');
+  overlay.classList.add('active');
   document.body.style.overflow = 'hidden';
-});
+};
 
-// close mobile menu
 const closeMenu = () => {
-  menu.classList.add('closing');
   menu.classList.remove('show');
-  menu.addEventListener('transitionend', function handler() {
-    menu.classList.remove('closing'); // animasyon bitince kapalı sınıf kaldır
-    menu.removeEventListener('transitionend', handler);
-  });
-  overlay.classList.remove('show');
+  overlay.classList.remove('active');
   document.body.style.overflow = '';
 };
 
-closeBtn.addEventListener('click', closeMenu);
-overlay.addEventListener('click', closeMenu);
-
-links.forEach(link => {
-  link.addEventListener('click', closeMenu);
-});
+menuBtn?.addEventListener('click', openMenu);
+overlay?.addEventListener('click', closeMenu);
+closeBtn?.addEventListener('click', closeMenu);
