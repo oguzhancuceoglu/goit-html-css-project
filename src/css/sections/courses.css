@@ -9,13 +9,6 @@ body {
   font-family: Arial, sans-serif;
 }
 
-.container {
-  width: 100%;
-  max-width: 1158px;
-  margin: 0 auto;
-  padding: 0;
-}
-
 .courses-section {
   padding: 40px 0;
 }
@@ -75,16 +68,12 @@ body {
   inset: 0;
   border-radius: inherit;
   background:
-    radial-gradient(
-      circle at top left,
+    radial-gradient(circle at top left,
       rgba(255, 255, 255, 0.04),
-      transparent 30%
-    ),
-    radial-gradient(
-      circle at bottom left,
+      transparent 30%),
+    radial-gradient(circle at bottom left,
       rgba(255, 255, 255, 0.03),
-      transparent 24%
-    );
+      transparent 24%);
   pointer-events: none;
 }
 

@@ -138,11 +138,20 @@ img {
 }
 
 .icon-star {
-    padding: 12px;
-    color: var(--black);
     background-color: var(--brown);
-    max-width: 44px;
-    border-radius: 100px;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+}
+
+.icon-star use {
+    fill: none;
+    stroke: var(--black);
+    stroke-width: 2;
 }
 
 .hero-content-reviews-text {

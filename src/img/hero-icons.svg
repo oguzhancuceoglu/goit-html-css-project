@@ -1,15 +1,10 @@
-<svg style="position: absolute; width: 0; height: 0; overflow: hidden;" aria-hidden="true" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <style>
-        .default-palette, .palette0 {color: currentColor;
-            --color0: #fff;
-        }
-    </style>
-    <defs>
-        <symbol id="icon-arrow" viewBox="0 0 18 9" fill="none">
-            <path fill="var(--color0, #fff)" clip-rule="evenodd" d="M12.5 0 18 4.3301 12.5 8.6603V5.0801l-12.5 0v-1.5l12.5 0z" fill-rule="evenodd" />
-        </symbol>
-        <symbol id="icon-star" viewBox="0 0 20 20" fill="none">
-            <path stroke-width="1.5" stroke="currentColor" stroke-linejoin="round" d="M10.0001 1.6667l2.575 5.2166 5.7583 0.8417-4.1667 4.0583 0.9834 5.7334-5.15-2.7084-5.15 2.7084 0.9833-5.7334L1.6668 7.725 7.4251 6.8833z" />
-        </symbol>
-    </defs>
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<symbol id="icon-arrow" viewBox="0 0 64 32">
+<path fill="#fff" style="fill: var(--color1, #fff)" d="M44.444 0l19.556 15.396-19.556 15.396v-12.729h-44.444v-5.333h44.444v-12.729z"></path>
+</symbol>
+<symbol id="icon-star" viewBox="0 0 34 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667" d="M16.148 1.333l4.578 9.274 10.237 1.496-7.407 7.215 1.748 10.193-9.155-4.815-9.156 4.815 1.748-10.193-7.407-7.215 10.237-1.496 4.578-9.274z"></path>
+</symbol>
+</defs>
 </svg>
