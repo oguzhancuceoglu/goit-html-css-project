@@ -21,12 +21,6 @@ body {
   background-color: #121212;
 }
 
-.container {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 0px 20px;
-}
-
 .reviews ul li:nth-child(2) {
   display: none;
 }
@@ -61,8 +55,8 @@ body {
 .reviews-card-top {
   display: flex;
   justify-content: space-between;
+  flex-direction: column;
   align-items: flex-start;
-  gap: 16px;
   margin-bottom: 20px;
 }
 
@@ -70,6 +64,7 @@ body {
   display: flex;
   align-items: center;
   gap: 12px;
+  margin-bottom: 4px;
 }
 
 .reviews-person img {
@@ -100,6 +95,7 @@ body {
   align-items: center;
   gap: 4px;
   flex-shrink: 0;
+  margin-left: 66px;
 }
 
 .reviews-stars .icon {
@@ -108,7 +104,7 @@ body {
   display: block;
 }
 
-.reviews-stars .icon-star {
+.reviews-stars .icon-reviews-star {
   width: 20px;
   height: 20px;
 }
@@ -118,9 +114,9 @@ body {
   height: 23px;
 }
 
-.reviews li > p:last-child {
+.reviews li>p:last-child {
   margin: 0;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.5;
   color: #fcf9f9;
 }
@@ -144,6 +140,7 @@ body {
 */
 
 @media (min-width: 768px) {
+
   /* Remove default margin and padding from all elements. I added it generally and it might be edit at last version of the project.*/
   h1,
   h2,
@@ -159,12 +156,6 @@ body {
   body {
     font-family: 'DM Sans', sans-serif;
     background-color: #121212;
-  }
-
-  .container {
-    max-width: 768px;
-    margin: 0 auto;
-    padding: 0 32px;
   }
 
   .reviews ul li:nth-child(2) {
@@ -202,6 +193,7 @@ body {
 
   .reviews-card-top {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
     gap: 16px;
@@ -212,6 +204,7 @@ body {
     display: flex;
     align-items: center;
     gap: 12px;
+    margin-bottom: 0;
   }
 
   .reviews-person img {
@@ -250,7 +243,7 @@ body {
     display: block;
   }
 
-  .reviews-stars .icon-star {
+  .reviews-stars .icon-reviews-star {
     width: 20px;
     height: 20px;
   }
@@ -260,7 +253,7 @@ body {
     height: 23px;
   }
 
-  .reviews li > p:last-child {
+  .reviews li>p:last-child {
     margin: 0;
     font-size: 16px;
     line-height: 1.5;
@@ -287,6 +280,7 @@ body {
 */
 
 @media (min-width: 1280px) {
+
   /* Remove default margin and padding from all elements. I added it generally and it might be edit at last version of the project.*/
   h1,
   h2,
@@ -302,12 +296,6 @@ body {
   body {
     font-family: 'DM Sans', sans-serif;
     background-color: #121212;
-  }
-
-  .container {
-    max-width: 1280px;
-    margin: 0 auto;
-    padding: 0;
   }
 
   .reviews ul li:nth-child(2) {
@@ -392,7 +380,7 @@ body {
     display: block;
   }
 
-  .reviews-stars .icon-star {
+  .reviews-stars .icon-reviews-star {
     width: 20px;
     height: 20px;
   }
@@ -402,7 +390,7 @@ body {
     height: 23px;
   }
 
-  .reviews li > p:last-child {
+  .reviews li>p:last-child {
     margin: 0;
     font-size: 16px;
     line-height: 1.5;

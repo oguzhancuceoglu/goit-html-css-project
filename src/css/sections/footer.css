@@ -171,7 +171,6 @@ img {
     /* Footer Form */
     .footer-form {
         gap: 8px;
-        max-width: 246px;
     }
 
     .footer-form input {
